@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><div class="navbar">
+    <header>
+        <div class="navbar">
         <div class="nav-logo">
             <img src="https://i.pinimg.com/736x/47/b7/bd/47b7bdac4285ee24654ca7d68cf06351.jpg" height="50px" width="113px" />
         </div>
@@ -25,15 +26,35 @@
                 <option>Arts and Crafts</option>
                 <option>Books</option>
                 <option>Computers</option>
+                <option>Electronics</option>
+                <option>Amazon Fashion</option>
+                <option>Health and Personal Care</option>
+                <option>Home and Kitchen</option>
+                <option>Jewellery</option>
+                <option>Amazon Devices</option>
+                <option>Sports, Fitness and Outdoors</option>
+                <option>Beauty</option>
+                <option>Grocery and Gourmet Foods</option>
+
+
             </select>
             <input type="text" placeholder="Search Amazon" class="box3-2" />
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <div class="box4">
             <img src="english.jpg" height="16px" width="22px" class="box4-image"/>
-            <p>EN</p>
-            <select class="country">
-                <option></option>
+            
+            <select>
+                
+                <option>English</option>
+                <option>हिन्दी</option>
+                <option>বাংলা</option>
+                <option>తెలుగు</option>
+                <option>मराठी</option>
+                <option>தமிழ்</option>
+                <option>ગુજરાતી</option>
+                <option>ಕನ್ನಡ</option>
+                <option>മലയാളം</option>
             </select>
         </div>
         <div class="box5">
@@ -85,21 +106,31 @@
    <div class="image1 box">
     <h2>Electronics & Computers</h2>
     <div class="shop-image1" style="background-image: url('box1.jpg') ;"></div>
+    <br>
     <span>Discover more in Home</span>
     </div>
    <div class="image2 box">
     <h2>Make-up</h2>
-    <div class="shop-image2" style="background-image: url('box2.jpg');"></div>
+    <div class="shop-image2" >
+        <img src="box2.jpg" alt="Make-up" style="width: 100%; height: 100%; object-fit: cover; background-repeat: no-repeat;">
+    </div>
+    <br>
     <span>Discover more in Home</span>
    </div>
    <div class="image3 box">
     <h2>Mobiles</h2>
-    <div class="shop-image3" style="background-image: url('box3.jpg');"></div>
+    <div class="shop-image3" >
+        <img src="box3.jpg" alt="Mobiles" style="width: 100%; height: 100%; object-fit: cover; background-repeat: no-repeat;">
+    </div>
+    <br>
     <span>Discover more in Home</span>
    </div>
    <div class="image4 box">
     <h2>Books</h2>
-    <div class="shop-image4" style="background-image: url('box4.jpg');"></div>
+    <div class="shop-image4" >
+        <img src="box4.jpg" alt="Books" style="width: 100%; height: 100%; object-fit: cover; background-repeat: no-repeat;">
+    </div>
+    <br>
     <span>Discover more in Home</span>
    </div>
    
@@ -112,7 +143,7 @@
         <div class="vid4 vd"></div>
         <div class="vid5 vd"></div>
         <div class="vid6 vd"></div>
-        <div class="vid7 vd"></div>
+        <!-- <div class="vid7 vd"></div> -->
     </div>
     <footer class="small">
         <div class="small1">
@@ -176,6 +207,59 @@
             </div>
         </div>
     </footer>
+    <div id="menuSidebar" class="menu-sidebar">
+    <div class="menu-sidebar-header">
+        <span>Menu,<a href="#">Sign in</a></span>
+        <button id="closeMenuSidebar">&times;</button>
+    </div>
+    <div class="menu-sidebar-content">
+        <h2>Trending</h2>
+        <a>Best Seller</a>
+        <a>New Releases</a>
+        <a>Movers & Shakers</a>
+        <br><hr>
+        <h2>Digital Content & Devices</h2>
+        <a>Echo & Alexa</a>
+        <a>Fire TV</a>
+        <a>Kindle E-readers & Books</a>
+        <a>Fire Tablets</a>
+        <a>Amazon Music</a>
+        <a>Audible Audiobooks</a>
+        <br><hr>
+        <h2>Shop By Department</h2>
+        <a>Amazon Home</a>
+        <a>Amazon Fashion</a>
+        <a>Amazon Pantry</a>
+        <a>Amazon Fresh</a>
+        <a>Amazon Launchpad</a>
+        <a>Amazon Global Store</a>
+        <a>Amazon Prime</a>
+        <a>Amazon Business</a>
+        <a>Amazon Pharmacy</a>
+        <br><hr>
+        <h2>Programs & Features</h2>
+        <a>Amazon Family</a>
+        <a>Amazon Ignite</a>
+        <a>Amazon Web Services</a>
+        <a>Amazon Second Chance</a>
+        <br><hr>
+        <h2>Help & Settings</h2>
+        <a>Account & Lists</a>
+        <a>Orders</a>
+        <a>Browsing History</a>
+        <a>Watchlist</a>
+        <a>Video Purchases & Rentals</a>
+        <a>Memberships & Subscriptions</a>
+        <a>Your Services</a>
+        <a>Content & Devices</a>
+        <a>Settings</a>
+        <a>Customer Service</a>
 
+
+    </div>
+</div>
+<script src="amazon.js">
+    
+</script>
 </body>
 </html>
