@@ -301,7 +301,9 @@ img{
    
 }
 
-/**footer**/  
+/**footer**/
+ 
+
 
 .small1{
     height: 100px;
@@ -311,18 +313,62 @@ img{
     padding-top: 40px;
     padding-bottom: 20px;
     
+    
 
 }
-.small1 button{
-    height: 38px;
-    width: 230px;
-    background-color: orange;
-    color: black;
-    border-radius: 4px;
+footer.small {
+    background: #232f3e;
+    color: #fff;
+    padding: 0;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
-.small1 p{
-    font-size: 11px;
+
+.small1 {
+    background: #fff;
+    color: #232f3e;
+    padding: 32px 0 16px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
+
+.small1 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.small1 .butt {
+    background: linear-gradient(90deg, #ff9900 0%, #ff5e62 100%);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(255, 94, 98, 0.15);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    padding: 12px 32px;
+    margin: 1px 0;
+    letter-spacing: 1px;
+}
+
+.small1 .butt:hover {
+    background: linear-gradient(90deg, #ff5e62 0%, #ff9900 100%);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(255, 94, 98, 0.25);
+}
+
+.small1 p {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+.small1 a {
+    color: #ff9900;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
 .small2{
     height: 39px;
     width: 100%;
@@ -333,55 +379,78 @@ img{
 }
 .small2 p{
     color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0;
 }
 .small3{
-    height: 300px;
-    width: 100%;
-    background-color: #333333;
-    color: white;
     display: flex;
     justify-content: center;
-    border-bottom:1px solid #cccccc;
-
+    align-items: flex-start;
+    gap: 40px;
+    background: #232f3e;
+    padding: 32px 0 16px 0;
+    flex-wrap: wrap;
 }
-.small3-1 a{
-    display: block;
+.small3 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 12px;
+    min-width: 180px;
 }
-.small3-2 a{
-    display: block;
+.footer-title{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #fff;
 }
-.small3-3 a{
-    display: block;
+.small3 li{
+    margin-bottom: 8px;
 }
-.small3-4 a{
-    display: block;
+.small3 a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
 }
-.foot{
-    margin: 40px;
+.small3 a:hover{
+    color: #ff9900;
+    text-decoration: underline;
 }
 .foot_logo{
-    height: 68px;
     width: 100%;
-    background-color: #333333;
+    background: #232f3e;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 24px 0 12px 0;
+}
+.foot_logo img{
+    height: 50px;
+    width: 113px;
+    object-fit: contain;
 }
 .last_foot{
-    height: 150px;
-    width: 100%;
-    background-color: #333333;
-    color: white;
+    color: #fff;
+    background: #131a22;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-
+    padding: 16px 0 8px 0;
+    gap: 18px;
+    font-size: 0.95rem;
 }
 .last_foot p{
-    display: block;
-    margin: 10px;
+    margin: 0 10px;
+    display: inline-block;
+}
+.last{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    gap: 6px;
+    font-size: 1rem;
 }
 .menu-sidebar {
     position: fixed;
@@ -440,7 +509,148 @@ img{
     text-decoration: none;
     font-size: 20px;
 }
+.anime{
+    height: 2500px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.animeAll{
+    height: 15%;
+    width: 80%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    
+    align-items: center;
+    flex-wrap: wrap;
+}
+.anime .anime-image{
+    height: 250px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    
+    /* box-shadow: 5px 5px 5px rgba(0,0,0,0.1); */
+}
+.anime-button {
+    background: linear-gradient(90deg, #ff9900 0%, #ff5e62 100%);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(255, 94, 98, 0.15);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    margin: 16px 0;
+    letter-spacing: 1px;
+}
 
+.anime-button:hover {
+    background: linear-gradient(90deg, #ff5e62 0%, #ff9900 100%);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(255, 94, 98, 0.25);
+}
+.animeAll h2{
+    background-color: #ff9900;
+    color: white;
+    height: 40px;
+    align-content: center;
+    width: 50%;
+    border-radius: 10px;
+   
+    
+}
+.anime-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: linear-gradient(90deg, #ff9900 0%, #ff5e62 100%);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(255, 94, 98, 0.15);
+    transition: background 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.85;
+}
+
+.anime-arrow.left {
+    left: 10px;
+}
+
+.anime-arrow.right {
+    right: 10px;
+}
+
+.anime-arrow:hover {
+    background: linear-gradient(90deg, #ff5e62 0%, #ff9900 100%);
+    transform: translateY(-50%) scale(1.1);
+}
+.anime {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    /* ...your existing styles... */
+}
+.foot_select {
+    margin: 0 10px;
+    padding: 8px 16px;
+    background: #232f3e;
+    color: #fff;
+    border: 1.5px solid #37475a;
+    border-radius: 20px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.foot_select:focus {
+    border-color: #ff9900;
+    background: #37475a;
+    color: #fff;
+}
+.lang-select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.lang-select-wrapper .fa-globe {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1.1rem;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.lang-select-wrapper .foot_select.language {
+    padding-left: 38px !important; /* Make space for the globe */
+}
 
 
 
