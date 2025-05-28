@@ -370,18 +370,28 @@ footer.small {
 }
 
 .small2{
-    height: 39px;
+    height: 60px;
     width: 100%;
     background-color: #37475a;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
-.small2 p{
-    color: white;
-    font-size: 1rem;
+.small2 button {
+    background: linear-gradient(90deg, blue 0%, #ff5e62 100%);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
     cursor: pointer;
+    box-shadow: 0 4px 16px rgba(255, 94, 98, 0.15);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    letter-spacing: 1px;
     margin: 0;
+    display: block;
 }
 .small3{
     display: flex;

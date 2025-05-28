@@ -40,3 +40,12 @@ document.getElementById('watch-jujutsu').onclick = function() {
 document.getElementById('watch-dragonball').onclick = function() {
     window.location.href = "https://www.primevideo.com/detail/0Q1IN4G6D9EM96JTXBVF19DLSP/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B0BXRP4GRV&qid=1748461752583";
 };
+let back=document.querySelectorAll(".backTop");
+back.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});
