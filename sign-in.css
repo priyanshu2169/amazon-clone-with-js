@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(120deg, #ff9900 0%, #ff5e62 100%);
+    background: linear-gradient(120deg, #81807e 0%, #ff5e62 100%);
     min-height: 100vh;
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -65,7 +65,7 @@ body {
 }
 
 .signin-btn {
-    background: linear-gradient(90deg, #ff9900 0%, #ff5e62 100%);
+    background: linear-gradient(90deg, #6c6a69 0%, #ff5e62 100%);
     color: #fff;
     border: none;
     border-radius: 25px;
